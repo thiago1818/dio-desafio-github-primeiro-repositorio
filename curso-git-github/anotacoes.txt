@@ -39,3 +39,7 @@ Untracked: Adiciona o arquivo
 Unmodified: Edita o arquivo
 Modified: Stage o arquivo (envelopa e deixa tudo pronto para o commit)
 Staged: É feito o commit e volta o arquivo para Unmodified e reinicia o ciclo.
+
+git add . (adiciona todas as alterações da pasta)
+git commit -m (faz o commit local com uma mensagem “mensagem”)
+git push origin main (comando pra enviar as alterações para o github)
