@@ -1,0 +1,41 @@
+Git e GitHub
+Professor: Otávio Reis Perkles
+
+	O Git faz Versionamento de arquivos.
+
+	O GitHub é o repositório online.
+
+O Git é diferente do GitHub.
+Principais funções do git:
+•	Controle de versão.
+•	Armazenamento em nuvem.
+•	Trabalho em equipe.
+•	Melhorar seu código.
+•	Reconhecimento.
+
+Funcionamento do Git:
+Criptografia SHA1, chave de 40 caracteres.
+Comando pra criptografar openssl sha1 nomedoarquivo
+
+Objetos do Git
+Blobs: Contém metadados do sha1 do arquivo criptografado
+Trees: Contém os blobs que contém os metadados.
+Commits: Contém todas as trees e os blobs.
+
+Sistema distribuído e seguro.
+
+Chaves SSH e Tokens
+
+Iniciar o GIT
+	Git init
+	Git add
+	Git commit
+ls -a mostra pastas e arquivos ocultos.
+
+git commit -m "commit inicial"
+
+Ciclo de vida:
+Untracked: Adiciona o arquivo
+Unmodified: Edita o arquivo
+Modified: Stage o arquivo (envelopa e deixa tudo pronto para o commit)
+Staged: É feito o commit e volta o arquivo para Unmodified e reinicia o ciclo.
